@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quiz_icon" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#B5EAAA"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="13dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="CREATE AN ACCOUNT"
+                android:textColor="#009688"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background" />
+
+            <EditText
+                android:id="@+id/nameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/blueGray"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="13dp" />
+
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/blueGray"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="13dp" />
+
+            <EditText
+                android:id="@+id/passwordBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/blueGray"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:padding="13dp" />
+
+            <EditText
+                android:id="@+id/referBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/textbox"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/blueGray"
+                android:ems="10"
+                android:hint="Refer Code"
+                android:inputType="textPersonName"
+                android:padding="13dp" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/submit_btn"
+                android:text="SUBMIT"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/createNewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/submit_btn"
+                android:text="ALREADY HAVE AN ACCOUNT"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="By signing up you agree to our privacy policy and terms and condition"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

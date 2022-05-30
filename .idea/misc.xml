@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/button_1.xml" value="0.168" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/background.xml" value="0.2515" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/background_bottom.xml" value="0.168" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/button_one.xml" value="0.1555" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/ic_paypal.xml" value="0.137" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/ic_profile.xml" value="0.137" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/ic_trophy.xml" value="0.137" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/option_right.xml" value="0.176" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/option_unselected.xml" value="0.1555" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/option_wrong.xml" value="0.1555" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/rounded_box.xml" value="0.168" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/submit_btn.xml" value="0.168" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/textbox.xml" value="0.168" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_login.xml" value="0.2740036231884058" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_result.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_signup.xml" value="0.2740036231884058" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_home.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_leaderboards.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_profile.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/fragment_wallet.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/item_category.xml" value="0.264" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/layout/row_leaderboards.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/menu/home_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1535" />
+        <entry key="..\:/Users/sheet/AndroidStudioProjects/QuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1535" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
